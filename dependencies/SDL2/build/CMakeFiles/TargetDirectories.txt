@@ -1,0 +1,10 @@
+/tmp/hjo/dependencies/SDL2/build/CMakeFiles/list_install_components.dir
+/tmp/hjo/dependencies/SDL2/build/CMakeFiles/rebuild_cache.dir
+/tmp/hjo/dependencies/SDL2/build/CMakeFiles/edit_cache.dir
+/tmp/hjo/dependencies/SDL2/build/CMakeFiles/install/strip.dir
+/tmp/hjo/dependencies/SDL2/build/CMakeFiles/install.dir
+/tmp/hjo/dependencies/SDL2/build/CMakeFiles/uninstall.dir
+/tmp/hjo/dependencies/SDL2/build/CMakeFiles/SDL2.dir
+/tmp/hjo/dependencies/SDL2/build/CMakeFiles/install/local.dir
+/tmp/hjo/dependencies/SDL2/build/CMakeFiles/SDL2-static.dir
+/tmp/hjo/dependencies/SDL2/build/CMakeFiles/SDL2main.dir

@@ -1,0 +1,1942 @@
+The system is: Darwin - 17.4.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/tmp/hjo/dependencies/SDL2/build/CMakeFiles/3.12.3/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3bf51/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3bf51.dir/build.make CMakeFiles/cmTC_3bf51.dir/build
+Building C object CMakeFiles/cmTC_3bf51.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_3bf51.dir/testCCompiler.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3bf51
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bf51.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3bf51.dir/testCCompiler.c.o  -o cmTC_3bf51 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6037d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6037d.dir/build.make CMakeFiles/cmTC_6037d.dir/build
+Building C object CMakeFiles/cmTC_6037d.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_6037d.dir/CMakeCCompilerABI.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_6037d
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6037d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_6037d.dir/CMakeCCompilerABI.c.o  -o cmTC_6037d 
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_6037d -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_6037d.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-351.8
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6037d/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6037d.dir/build.make CMakeFiles/cmTC_6037d.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_6037d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_6037d.dir/CMakeCCompilerABI.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_6037d]
+  ignore line: [/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6037d.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_6037d.dir/CMakeCCompilerABI.c.o  -o cmTC_6037d ]
+  ignore line: [Apple LLVM version 9.1.0 (clang-902.0.39.1)]
+  ignore line: [Target: x86_64-apple-darwin17.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_6037d -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_6037d.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6037d] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_6037d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e048a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e048a.dir/build.make CMakeFiles/cmTC_e048a.dir/build
+Building C object CMakeFiles/cmTC_e048a.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_e048a.dir/feature_tests.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e048a
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e048a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e048a.dir/feature_tests.c.o  -o cmTC_e048a 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f307b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f307b.dir/build.make CMakeFiles/cmTC_f307b.dir/build
+Building C object CMakeFiles/cmTC_f307b.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_f307b.dir/feature_tests.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f307b
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f307b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f307b.dir/feature_tests.c.o  -o cmTC_f307b 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56230/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_56230.dir/build.make CMakeFiles/cmTC_56230.dir/build
+Building C object CMakeFiles/cmTC_56230.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_56230.dir/feature_tests.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_56230
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56230.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_56230.dir/feature_tests.c.o  -o cmTC_56230 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_678b2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_678b2.dir/build.make CMakeFiles/cmTC_678b2.dir/build
+Building C object CMakeFiles/cmTC_678b2.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_GCC_WALL   -Wall -o CMakeFiles/cmTC_678b2.dir/src.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_678b2
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_678b2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_GCC_WALL -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_678b2.dir/src.c.o  -o cmTC_678b2 
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6170/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b6170.dir/build.make CMakeFiles/cmTC_b6170.dir/build
+Building C object CMakeFiles/cmTC_b6170.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT   -Wdeclaration-after-statement -o CMakeFiles/cmTC_b6170.dir/src.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b6170
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6170.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b6170.dir/src.c.o  -o cmTC_b6170 
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2469c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2469c.dir/build.make CMakeFiles/cmTC_2469c.dir/build
+Building C object CMakeFiles/cmTC_2469c.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT   -Werror=declaration-after-statement -o CMakeFiles/cmTC_2469c.dir/src.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2469c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2469c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2469c.dir/src.c.o  -o cmTC_2469c 
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_ATOMICS succeeded with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bff33/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bff33.dir/build.make CMakeFiles/cmTC_bff33.dir/build
+Building C object CMakeFiles/cmTC_bff33.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_GCC_ATOMICS   -o CMakeFiles/cmTC_bff33.dir/src.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bff33
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bff33.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_GCC_ATOMICS -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bff33.dir/src.c.o  -o cmTC_bff33 
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z); }
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeeded with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0880/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d0880.dir/build.make CMakeFiles/cmTC_d0880.dir/build
+Building C object CMakeFiles/cmTC_d0880.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror   -o CMakeFiles/cmTC_d0880.dir/src.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d0880
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0880.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d0880.dir/src.c.o  -o cmTC_d0880 
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8438/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f8438.dir/build.make CMakeFiles/cmTC_f8438.dir/build
+Building C object CMakeFiles/cmTC_f8438.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_GCC_WSHADOW   -Wshadow -o CMakeFiles/cmTC_f8438.dir/src.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f8438
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8438.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_GCC_WSHADOW -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f8438.dir/src.c.o  -o cmTC_f8438 
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_MMX succeeded with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9fdd3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9fdd3.dir/build.make CMakeFiles/cmTC_9fdd3.dir/build
+Building C object CMakeFiles/cmTC_9fdd3.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_MMX -mmmx   -o CMakeFiles/cmTC_9fdd3.dir/src.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9fdd3
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fdd3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_MMX -mmmx -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9fdd3.dir/src.c.o  -o cmTC_9fdd3 
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <mmintrin.h>
+          #endif
+          #else
+          #include <mmintrin.h>
+          #endif
+          #ifndef __MMX__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_3DNOW succeeded with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77418/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_77418.dir/build.make CMakeFiles/cmTC_77418.dir/build
+Building C object CMakeFiles/cmTC_77418.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_3DNOW -m3dnow   -o CMakeFiles/cmTC_77418.dir/src.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_77418
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77418.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_3DNOW -m3dnow -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_77418.dir/src.c.o  -o cmTC_77418 
+
+Source file was:
+
+          #include <mm3dnow.h>
+          #ifndef __3dNOW__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) {
+            void *p = 0;
+            _m_prefetch(p);
+          }
+Performing C SOURCE FILE Test HAVE_SSE succeeded with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0697b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0697b.dir/build.make CMakeFiles/cmTC_0697b.dir/build
+Building C object CMakeFiles/cmTC_0697b.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_SSE -msse   -o CMakeFiles/cmTC_0697b.dir/src.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0697b
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0697b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_SSE -msse -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0697b.dir/src.c.o  -o cmTC_0697b 
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #ifndef __SSE__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_SSE2 succeeded with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c0ec/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1c0ec.dir/build.make CMakeFiles/cmTC_1c0ec.dir/build
+Building C object CMakeFiles/cmTC_1c0ec.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_SSE2 -msse2   -o CMakeFiles/cmTC_1c0ec.dir/src.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1c0ec
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c0ec.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_SSE2 -msse2 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1c0ec.dir/src.c.o  -o cmTC_1c0ec 
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <emmintrin.h>
+          #endif
+          #else
+          #include <emmintrin.h>
+          #endif
+          #ifndef __SSE2__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_SSE3 succeeded with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc195/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cc195.dir/build.make CMakeFiles/cmTC_cc195.dir/build
+Building C object CMakeFiles/cmTC_cc195.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_SSE3 -msse3   -o CMakeFiles/cmTC_cc195.dir/src.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cc195
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc195.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_SSE3 -msse3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cc195.dir/src.c.o  -o cmTC_cc195 
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #ifndef __SSE3__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Determining if the include file immintrin.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c812e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c812e.dir/build.make CMakeFiles/cmTC_c812e.dir/build
+Building C object CMakeFiles/cmTC_c812e.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_c812e.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c812e
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c812e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c812e.dir/CheckIncludeFile.c.o  -o cmTC_c812e 
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6b2f5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6b2f5.dir/build.make CMakeFiles/cmTC_6b2f5.dir/build
+Building C object CMakeFiles/cmTC_6b2f5.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_6b2f5.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6b2f5
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b2f5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6b2f5.dir/CheckIncludeFile.c.o  -o cmTC_6b2f5 
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_afb53/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_afb53.dir/build.make CMakeFiles/cmTC_afb53.dir/build
+Building C object CMakeFiles/cmTC_afb53.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_afb53.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_afb53
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afb53.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_afb53.dir/CheckIncludeFile.c.o  -o cmTC_afb53 
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ef27/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8ef27.dir/build.make CMakeFiles/cmTC_8ef27.dir/build
+Building C object CMakeFiles/cmTC_8ef27.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_8ef27.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8ef27
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ef27.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8ef27.dir/CheckIncludeFile.c.o  -o cmTC_8ef27 
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fbfd3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fbfd3.dir/build.make CMakeFiles/cmTC_fbfd3.dir/build
+Building C object CMakeFiles/cmTC_fbfd3.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_fbfd3.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fbfd3
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbfd3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fbfd3.dir/CheckIncludeFile.c.o  -o cmTC_fbfd3 
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8da6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b8da6.dir/build.make CMakeFiles/cmTC_b8da6.dir/build
+Building C object CMakeFiles/cmTC_b8da6.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_b8da6.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b8da6
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8da6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b8da6.dir/CheckIncludeFile.c.o  -o cmTC_b8da6 
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33f97/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_33f97.dir/build.make CMakeFiles/cmTC_33f97.dir/build
+Building C object CMakeFiles/cmTC_33f97.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_33f97.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_33f97
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33f97.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_33f97.dir/CheckIncludeFile.c.o  -o cmTC_33f97 
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c66ad/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c66ad.dir/build.make CMakeFiles/cmTC_c66ad.dir/build
+Building C object CMakeFiles/cmTC_c66ad.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_c66ad.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c66ad
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c66ad.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c66ad.dir/CheckIncludeFile.c.o  -o cmTC_c66ad 
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7166/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f7166.dir/build.make CMakeFiles/cmTC_f7166.dir/build
+Building C object CMakeFiles/cmTC_f7166.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_f7166.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f7166
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7166.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f7166.dir/CheckIncludeFile.c.o  -o cmTC_f7166 
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d306/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8d306.dir/build.make CMakeFiles/cmTC_8d306.dir/build
+Building C object CMakeFiles/cmTC_8d306.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_8d306.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8d306
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d306.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8d306.dir/CheckIncludeFile.c.o  -o cmTC_8d306 
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c88e4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c88e4.dir/build.make CMakeFiles/cmTC_c88e4.dir/build
+Building C object CMakeFiles/cmTC_c88e4.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_c88e4.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c88e4
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c88e4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c88e4.dir/CheckIncludeFile.c.o  -o cmTC_c88e4 
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bac1c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bac1c.dir/build.make CMakeFiles/cmTC_bac1c.dir/build
+Building C object CMakeFiles/cmTC_bac1c.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_bac1c.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bac1c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bac1c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bac1c.dir/CheckIncludeFile.c.o  -o cmTC_bac1c 
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6361b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6361b.dir/build.make CMakeFiles/cmTC_6361b.dir/build
+Building C object CMakeFiles/cmTC_6361b.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_6361b.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6361b
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6361b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6361b.dir/CheckIncludeFile.c.o  -o cmTC_6361b 
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f528/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0f528.dir/build.make CMakeFiles/cmTC_0f528.dir/build
+Building C object CMakeFiles/cmTC_0f528.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_0f528.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0f528
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f528.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0f528.dir/CheckIncludeFile.c.o  -o cmTC_0f528 
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90c67/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_90c67.dir/build.make CMakeFiles/cmTC_90c67.dir/build
+Building C object CMakeFiles/cmTC_90c67.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_90c67.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_90c67
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90c67.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_90c67.dir/CheckIncludeFile.c.o  -o cmTC_90c67 
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc6bb/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cc6bb.dir/build.make CMakeFiles/cmTC_cc6bb.dir/build
+Building C object CMakeFiles/cmTC_cc6bb.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_cc6bb.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cc6bb
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc6bb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cc6bb.dir/CheckIncludeFile.c.o  -o cmTC_cc6bb 
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20010/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_20010.dir/build.make CMakeFiles/cmTC_20010.dir/build
+Building C object CMakeFiles/cmTC_20010.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_20010.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_20010
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20010.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_20010.dir/CheckIncludeFile.c.o  -o cmTC_20010 
+
+
+Determining if the include file libunwind.h exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72185/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_72185.dir/build.make CMakeFiles/cmTC_72185.dir/build
+Building C object CMakeFiles/cmTC_72185.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_72185.dir/CheckIncludeFile.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_72185
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72185.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_72185.dir/CheckIncludeFile.c.o  -o cmTC_72185 
+
+
+Determining if files dlfcn.h;stdint.h;stddef.h;inttypes.h;stdlib.h;strings.h;string.h;float.h exist passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_121fa/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_121fa.dir/build.make CMakeFiles/cmTC_121fa.dir/build
+Building C object CMakeFiles/cmTC_121fa.dir/STDC_HEADERS.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_121fa.dir/STDC_HEADERS.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c
+Linking C executable cmTC_121fa
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_121fa.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_121fa.dir/STDC_HEADERS.c.o  -o cmTC_121fa 
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c66d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1c66d.dir/build.make CMakeFiles/cmTC_1c66d.dir/build
+Building C object CMakeFiles/cmTC_1c66d.dir/SIZEOF_SIZE_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_1c66d.dir/SIZEOF_SIZE_T.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_1c66d
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c66d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1c66d.dir/SIZEOF_SIZE_T.c.o  -o cmTC_1c66d 
+
+
+Determining if the M_PI exist passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4aba1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4aba1.dir/build.make CMakeFiles/cmTC_4aba1.dir/build
+Building C object CMakeFiles/cmTC_4aba1.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos    -o CMakeFiles/cmTC_4aba1.dir/CheckSymbolExists.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4aba1
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4aba1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4aba1.dir/CheckSymbolExists.c.o  -o cmTC_4aba1 
+
+File /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef M_PI
+  return ((int*)(&M_PI))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MPROTECT succeeded with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc94b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cc94b.dir/build.make CMakeFiles/cmTC_cc94b.dir/build
+Building C object CMakeFiles/cmTC_cc94b.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_MPROTECT   -o CMakeFiles/cmTC_cc94b.dir/src.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cc94b
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc94b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_MPROTECT -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cc94b.dir/src.c.o  -o cmTC_cc94b 
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the function strtod exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7630/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a7630.dir/build.make CMakeFiles/cmTC_a7630.dir/build
+Building C object CMakeFiles/cmTC_a7630.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtod   -o CMakeFiles/cmTC_a7630.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a7630
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7630.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtod -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a7630.dir/CheckFunctionExists.c.o  -o cmTC_a7630 
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ee3c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2ee3c.dir/build.make CMakeFiles/cmTC_2ee3c.dir/build
+Building C object CMakeFiles/cmTC_2ee3c.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTC_2ee3c.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'malloc' is a builtin with type 'void *(unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_2ee3c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ee3c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=malloc -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2ee3c.dir/CheckFunctionExists.c.o  -o cmTC_2ee3c 
+
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9f90/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c9f90.dir/build.make CMakeFiles/cmTC_c9f90.dir/build
+Building C object CMakeFiles/cmTC_c9f90.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=calloc   -o CMakeFiles/cmTC_c9f90.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'calloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'calloc' is a builtin with type 'void *(unsigned long, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_c9f90
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9f90.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=calloc -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c9f90.dir/CheckFunctionExists.c.o  -o cmTC_c9f90 
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fddb5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fddb5.dir/build.make CMakeFiles/cmTC_fddb5.dir/build
+Building C object CMakeFiles/cmTC_fddb5.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=realloc   -o CMakeFiles/cmTC_fddb5.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'realloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS realloc
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'realloc' is a builtin with type 'void *(void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS realloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_fddb5
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fddb5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=realloc -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fddb5.dir/CheckFunctionExists.c.o  -o cmTC_fddb5 
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50768/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_50768.dir/build.make CMakeFiles/cmTC_50768.dir/build
+Building C object CMakeFiles/cmTC_50768.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=free   -o CMakeFiles/cmTC_50768.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_50768
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50768.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=free -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_50768.dir/CheckFunctionExists.c.o  -o cmTC_50768 
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26caf/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_26caf.dir/build.make CMakeFiles/cmTC_26caf.dir/build
+Building C object CMakeFiles/cmTC_26caf.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=getenv   -o CMakeFiles/cmTC_26caf.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_26caf
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26caf.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=getenv -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_26caf.dir/CheckFunctionExists.c.o  -o cmTC_26caf 
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4dc92/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4dc92.dir/build.make CMakeFiles/cmTC_4dc92.dir/build
+Building C object CMakeFiles/cmTC_4dc92.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=setenv   -o CMakeFiles/cmTC_4dc92.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4dc92
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dc92.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=setenv -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4dc92.dir/CheckFunctionExists.c.o  -o cmTC_4dc92 
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b241b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b241b.dir/build.make CMakeFiles/cmTC_b241b.dir/build
+Building C object CMakeFiles/cmTC_b241b.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=putenv   -o CMakeFiles/cmTC_b241b.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b241b
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b241b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=putenv -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b241b.dir/CheckFunctionExists.c.o  -o cmTC_b241b 
+
+
+Determining if the function unsetenv exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d6a7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6d6a7.dir/build.make CMakeFiles/cmTC_6d6a7.dir/build
+Building C object CMakeFiles/cmTC_6d6a7.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=unsetenv   -o CMakeFiles/cmTC_6d6a7.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6d6a7
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d6a7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=unsetenv -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6d6a7.dir/CheckFunctionExists.c.o  -o cmTC_6d6a7 
+
+
+Determining if the function qsort exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d87c5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d87c5.dir/build.make CMakeFiles/cmTC_d87c5.dir/build
+Building C object CMakeFiles/cmTC_d87c5.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=qsort   -o CMakeFiles/cmTC_d87c5.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d87c5
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d87c5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=qsort -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d87c5.dir/CheckFunctionExists.c.o  -o cmTC_d87c5 
+
+
+Determining if the function abs exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6331/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a6331.dir/build.make CMakeFiles/cmTC_a6331.dir/build
+Building C object CMakeFiles/cmTC_a6331.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=abs   -o CMakeFiles/cmTC_a6331.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'abs' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS abs
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'abs' is a builtin with type 'int (int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS abs
+                              ^
+1 warning generated.
+Linking C executable cmTC_a6331
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6331.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=abs -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a6331.dir/CheckFunctionExists.c.o  -o cmTC_a6331 
+
+
+Determining if the function bcopy exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3a14/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d3a14.dir/build.make CMakeFiles/cmTC_d3a14.dir/build
+Building C object CMakeFiles/cmTC_d3a14.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=bcopy   -o CMakeFiles/cmTC_d3a14.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d3a14
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3a14.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=bcopy -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d3a14.dir/CheckFunctionExists.c.o  -o cmTC_d3a14 
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a484/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4a484.dir/build.make CMakeFiles/cmTC_4a484.dir/build
+Building C object CMakeFiles/cmTC_4a484.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTC_4a484.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memset' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'memset' is a builtin with type 'void *(void *, int, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+1 warning generated.
+Linking C executable cmTC_4a484
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a484.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=memset -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4a484.dir/CheckFunctionExists.c.o  -o cmTC_4a484 
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_744e4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_744e4.dir/build.make CMakeFiles/cmTC_744e4.dir/build
+Building C object CMakeFiles/cmTC_744e4.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=memcpy   -o CMakeFiles/cmTC_744e4.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'memcpy' is a builtin with type 'void *(void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+1 warning generated.
+Linking C executable cmTC_744e4
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_744e4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=memcpy -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_744e4.dir/CheckFunctionExists.c.o  -o cmTC_744e4 
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aafe2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_aafe2.dir/build.make CMakeFiles/cmTC_aafe2.dir/build
+Building C object CMakeFiles/cmTC_aafe2.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=memmove   -o CMakeFiles/cmTC_aafe2.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memmove' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'memmove' is a builtin with type 'void *(void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+1 warning generated.
+Linking C executable cmTC_aafe2
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aafe2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=memmove -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_aafe2.dir/CheckFunctionExists.c.o  -o cmTC_aafe2 
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49810/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_49810.dir/build.make CMakeFiles/cmTC_49810.dir/build
+Building C object CMakeFiles/cmTC_49810.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=memcmp   -o CMakeFiles/cmTC_49810.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'memcmp' is a builtin with type 'int (const void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_49810
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49810.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=memcmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_49810.dir/CheckFunctionExists.c.o  -o cmTC_49810 
+
+
+Determining if the function strlen exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46500/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_46500.dir/build.make CMakeFiles/cmTC_46500.dir/build
+Building C object CMakeFiles/cmTC_46500.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlen   -o CMakeFiles/cmTC_46500.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlen' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strlen' is a builtin with type 'unsigned long (const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+1 warning generated.
+Linking C executable cmTC_46500
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46500.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlen -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_46500.dir/CheckFunctionExists.c.o  -o cmTC_46500 
+
+
+Determining if the function strlcpy exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c97e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2c97e.dir/build.make CMakeFiles/cmTC_2c97e.dir/build
+Building C object CMakeFiles/cmTC_2c97e.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTC_2c97e.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcpy
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strlcpy' is a builtin with type 'unsigned long (char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcpy
+                              ^
+1 warning generated.
+Linking C executable cmTC_2c97e
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c97e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcpy -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2c97e.dir/CheckFunctionExists.c.o  -o cmTC_2c97e 
+
+
+Determining if the function strlcat exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef5c3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ef5c3.dir/build.make CMakeFiles/cmTC_ef5c3.dir/build
+Building C object CMakeFiles/cmTC_ef5c3.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTC_ef5c3.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlcat' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcat
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strlcat' is a builtin with type 'unsigned long (char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcat
+                              ^
+1 warning generated.
+Linking C executable cmTC_ef5c3
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef5c3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcat -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ef5c3.dir/CheckFunctionExists.c.o  -o cmTC_ef5c3 
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe7b9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fe7b9.dir/build.make CMakeFiles/cmTC_fe7b9.dir/build
+Building C object CMakeFiles/cmTC_fe7b9.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strchr   -o CMakeFiles/cmTC_fe7b9.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strchr' is a builtin with type 'char *(const char *, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+1 warning generated.
+Linking C executable cmTC_fe7b9
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe7b9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strchr -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fe7b9.dir/CheckFunctionExists.c.o  -o cmTC_fe7b9 
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07aef/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_07aef.dir/build.make CMakeFiles/cmTC_07aef.dir/build
+Building C object CMakeFiles/cmTC_07aef.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strrchr   -o CMakeFiles/cmTC_07aef.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strrchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strrchr' is a builtin with type 'char *(const char *, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+1 warning generated.
+Linking C executable cmTC_07aef
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07aef.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strrchr -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_07aef.dir/CheckFunctionExists.c.o  -o cmTC_07aef 
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_763fe/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_763fe.dir/build.make CMakeFiles/cmTC_763fe.dir/build
+Building C object CMakeFiles/cmTC_763fe.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strstr   -o CMakeFiles/cmTC_763fe.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strstr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strstr' is a builtin with type 'char *(const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+1 warning generated.
+Linking C executable cmTC_763fe
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_763fe.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strstr -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_763fe.dir/CheckFunctionExists.c.o  -o cmTC_763fe 
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_786be/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_786be.dir/build.make CMakeFiles/cmTC_786be.dir/build
+Building C object CMakeFiles/cmTC_786be.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtol   -o CMakeFiles/cmTC_786be.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_786be
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_786be.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtol -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_786be.dir/CheckFunctionExists.c.o  -o cmTC_786be 
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8be3b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8be3b.dir/build.make CMakeFiles/cmTC_8be3b.dir/build
+Building C object CMakeFiles/cmTC_8be3b.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoul   -o CMakeFiles/cmTC_8be3b.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8be3b
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8be3b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoul -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8be3b.dir/CheckFunctionExists.c.o  -o cmTC_8be3b 
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc490/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cc490.dir/build.make CMakeFiles/cmTC_cc490.dir/build
+Building C object CMakeFiles/cmTC_cc490.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoll   -o CMakeFiles/cmTC_cc490.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cc490
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc490.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoll -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cc490.dir/CheckFunctionExists.c.o  -o cmTC_cc490 
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dcaf4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dcaf4.dir/build.make CMakeFiles/cmTC_dcaf4.dir/build
+Building C object CMakeFiles/cmTC_dcaf4.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoull   -o CMakeFiles/cmTC_dcaf4.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dcaf4
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcaf4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoull -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dcaf4.dir/CheckFunctionExists.c.o  -o cmTC_dcaf4 
+
+
+Determining if the function atoi exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8440/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a8440.dir/build.make CMakeFiles/cmTC_a8440.dir/build
+Building C object CMakeFiles/cmTC_a8440.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=atoi   -o CMakeFiles/cmTC_a8440.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a8440
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8440.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=atoi -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a8440.dir/CheckFunctionExists.c.o  -o cmTC_a8440 
+
+
+Determining if the function atof exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b67ff/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b67ff.dir/build.make CMakeFiles/cmTC_b67ff.dir/build
+Building C object CMakeFiles/cmTC_b67ff.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=atof   -o CMakeFiles/cmTC_b67ff.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b67ff
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b67ff.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=atof -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b67ff.dir/CheckFunctionExists.c.o  -o cmTC_b67ff 
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5542/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c5542.dir/build.make CMakeFiles/cmTC_c5542.dir/build
+Building C object CMakeFiles/cmTC_c5542.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strcmp   -o CMakeFiles/cmTC_c5542.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strcmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_c5542
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5542.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strcmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c5542.dir/CheckFunctionExists.c.o  -o cmTC_c5542 
+
+
+Determining if the function strncmp exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cee1f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cee1f.dir/build.make CMakeFiles/cmTC_cee1f.dir/build
+Building C object CMakeFiles/cmTC_cee1f.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strncmp   -o CMakeFiles/cmTC_cee1f.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strncmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strncmp' is a builtin with type 'int (const char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_cee1f
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cee1f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strncmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cee1f.dir/CheckFunctionExists.c.o  -o cmTC_cee1f 
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8142/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d8142.dir/build.make CMakeFiles/cmTC_d8142.dir/build
+Building C object CMakeFiles/cmTC_d8142.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTC_d8142.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strcasecmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_d8142
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8142.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strcasecmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d8142.dir/CheckFunctionExists.c.o  -o cmTC_d8142 
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4f0c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d4f0c.dir/build.make CMakeFiles/cmTC_d4f0c.dir/build
+Building C object CMakeFiles/cmTC_d4f0c.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strncasecmp   -o CMakeFiles/cmTC_d4f0c.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strncasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strncasecmp' is a builtin with type 'int (const char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_d4f0c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4f0c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=strncasecmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d4f0c.dir/CheckFunctionExists.c.o  -o cmTC_d4f0c 
+
+
+Determining if the function vsscanf exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f0ca/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5f0ca.dir/build.make CMakeFiles/cmTC_5f0ca.dir/build
+Building C object CMakeFiles/cmTC_5f0ca.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=vsscanf   -o CMakeFiles/cmTC_5f0ca.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsscanf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsscanf
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'vsscanf' is a builtin with type 'int (const char *restrict, const char *restrict, struct __va_list_tag *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsscanf
+                              ^
+1 warning generated.
+Linking C executable cmTC_5f0ca
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f0ca.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=vsscanf -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5f0ca.dir/CheckFunctionExists.c.o  -o cmTC_5f0ca 
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82c84/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_82c84.dir/build.make CMakeFiles/cmTC_82c84.dir/build
+Building C object CMakeFiles/cmTC_82c84.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_82c84.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsnprintf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'vsnprintf' is a builtin with type 'int (char *, unsigned long, const char *, struct __va_list_tag *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+1 warning generated.
+Linking C executable cmTC_82c84
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82c84.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=vsnprintf -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_82c84.dir/CheckFunctionExists.c.o  -o cmTC_82c84 
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9828/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c9828.dir/build.make CMakeFiles/cmTC_c9828.dir/build
+Building C object CMakeFiles/cmTC_c9828.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTC_c9828.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c9828
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9828.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=fseeko -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c9828.dir/CheckFunctionExists.c.o  -o cmTC_c9828 
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0143/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a0143.dir/build.make CMakeFiles/cmTC_a0143.dir/build
+Building C object CMakeFiles/cmTC_a0143.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTC_a0143.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a0143
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0143.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sigaction -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a0143.dir/CheckFunctionExists.c.o  -o cmTC_a0143 
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0706e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0706e.dir/build.make CMakeFiles/cmTC_0706e.dir/build
+Building C object CMakeFiles/cmTC_0706e.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles/cmTC_0706e.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: declaration of built-in function 'setjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS setjmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_0706e
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0706e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=setjmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0706e.dir/CheckFunctionExists.c.o  -o cmTC_0706e 
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec73c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ec73c.dir/build.make CMakeFiles/cmTC_ec73c.dir/build
+Building C object CMakeFiles/cmTC_ec73c.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=nanosleep   -o CMakeFiles/cmTC_ec73c.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ec73c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec73c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=nanosleep -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ec73c.dir/CheckFunctionExists.c.o  -o cmTC_ec73c 
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1dfe1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1dfe1.dir/build.make CMakeFiles/cmTC_1dfe1.dir/build
+Building C object CMakeFiles/cmTC_1dfe1.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysconf   -o CMakeFiles/cmTC_1dfe1.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1dfe1
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dfe1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysconf -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1dfe1.dir/CheckFunctionExists.c.o  -o cmTC_1dfe1 
+
+
+Determining if the function sysctlbyname exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_707c1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_707c1.dir/build.make CMakeFiles/cmTC_707c1.dir/build
+Building C object CMakeFiles/cmTC_707c1.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysctlbyname   -o CMakeFiles/cmTC_707c1.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_707c1
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_707c1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysctlbyname -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_707c1.dir/CheckFunctionExists.c.o  -o cmTC_707c1 
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f3a3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9f3a3.dir/build.make CMakeFiles/cmTC_9f3a3.dir/build
+Building C object CMakeFiles/cmTC_9f3a3.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTC_9f3a3.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9f3a3
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f3a3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=poll -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9f3a3.dir/CheckFunctionExists.c.o  -o cmTC_9f3a3 
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1879/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c1879.dir/build.make CMakeFiles/cmTC_c1879.dir/build
+Building C object CMakeFiles/cmTC_c1879.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTC_c1879.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+Linking C executable cmTC_c1879
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1879.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=pow -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c1879.dir/CheckFunctionExists.c.o  -o cmTC_c1879 -lm 
+
+
+Determining if the function atan exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22c92/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_22c92.dir/build.make CMakeFiles/cmTC_22c92.dir/build
+Building C object CMakeFiles/cmTC_22c92.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=atan   -o CMakeFiles/cmTC_22c92.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'atan' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'atan' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan
+                              ^
+1 warning generated.
+Linking C executable cmTC_22c92
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22c92.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=atan -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_22c92.dir/CheckFunctionExists.c.o  -o cmTC_22c92 -lm 
+
+
+Determining if the function atan2 exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_adcd7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_adcd7.dir/build.make CMakeFiles/cmTC_adcd7.dir/build
+Building C object CMakeFiles/cmTC_adcd7.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=atan2   -o CMakeFiles/cmTC_adcd7.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'atan2' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan2
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'atan2' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan2
+                              ^
+1 warning generated.
+Linking C executable cmTC_adcd7
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adcd7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=atan2 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_adcd7.dir/CheckFunctionExists.c.o  -o cmTC_adcd7 -lm 
+
+
+Determining if the function ceil exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44b34/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_44b34.dir/build.make CMakeFiles/cmTC_44b34.dir/build
+Building C object CMakeFiles/cmTC_44b34.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=ceil   -o CMakeFiles/cmTC_44b34.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'ceil' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'ceil' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+1 warning generated.
+Linking C executable cmTC_44b34
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44b34.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=ceil -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_44b34.dir/CheckFunctionExists.c.o  -o cmTC_44b34 -lm 
+
+
+Determining if the function copysign exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c22b6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c22b6.dir/build.make CMakeFiles/cmTC_c22b6.dir/build
+Building C object CMakeFiles/cmTC_c22b6.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=copysign   -o CMakeFiles/cmTC_c22b6.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'copysign' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS copysign
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'copysign' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS copysign
+                              ^
+1 warning generated.
+Linking C executable cmTC_c22b6
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c22b6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=copysign -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c22b6.dir/CheckFunctionExists.c.o  -o cmTC_c22b6 -lm 
+
+
+Determining if the function cos exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e858/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3e858.dir/build.make CMakeFiles/cmTC_3e858.dir/build
+Building C object CMakeFiles/cmTC_3e858.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=cos   -o CMakeFiles/cmTC_3e858.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'cos' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'cos' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+1 warning generated.
+Linking C executable cmTC_3e858
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e858.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=cos -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3e858.dir/CheckFunctionExists.c.o  -o cmTC_3e858 -lm 
+
+
+Determining if the function cosf exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b200/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7b200.dir/build.make CMakeFiles/cmTC_7b200.dir/build
+Building C object CMakeFiles/cmTC_7b200.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=cosf   -o CMakeFiles/cmTC_7b200.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'cosf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cosf
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'cosf' is a builtin with type 'float (float)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cosf
+                              ^
+1 warning generated.
+Linking C executable cmTC_7b200
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b200.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=cosf -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7b200.dir/CheckFunctionExists.c.o  -o cmTC_7b200 -lm 
+
+
+Determining if the function fabs exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19a7a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_19a7a.dir/build.make CMakeFiles/cmTC_19a7a.dir/build
+Building C object CMakeFiles/cmTC_19a7a.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=fabs   -o CMakeFiles/cmTC_19a7a.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'fabs' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fabs
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'fabs' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fabs
+                              ^
+1 warning generated.
+Linking C executable cmTC_19a7a
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19a7a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=fabs -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_19a7a.dir/CheckFunctionExists.c.o  -o cmTC_19a7a -lm 
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7503/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e7503.dir/build.make CMakeFiles/cmTC_e7503.dir/build
+Building C object CMakeFiles/cmTC_e7503.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTC_e7503.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'floor' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+1 warning generated.
+Linking C executable cmTC_e7503
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7503.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=floor -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e7503.dir/CheckFunctionExists.c.o  -o cmTC_e7503 -lm 
+
+
+Determining if the function log exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76c0d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_76c0d.dir/build.make CMakeFiles/cmTC_76c0d.dir/build
+Building C object CMakeFiles/cmTC_76c0d.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=log   -o CMakeFiles/cmTC_76c0d.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'log' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'log' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+1 warning generated.
+Linking C executable cmTC_76c0d
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76c0d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=log -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_76c0d.dir/CheckFunctionExists.c.o  -o cmTC_76c0d -lm 
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1f5c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c1f5c.dir/build.make CMakeFiles/cmTC_c1f5c.dir/build
+Building C object CMakeFiles/cmTC_c1f5c.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTC_c1f5c.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+Linking C executable cmTC_c1f5c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1f5c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=pow -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c1f5c.dir/CheckFunctionExists.c.o  -o cmTC_c1f5c -lm 
+
+
+Determining if the function scalbn exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e29c4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e29c4.dir/build.make CMakeFiles/cmTC_e29c4.dir/build
+Building C object CMakeFiles/cmTC_e29c4.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=scalbn   -o CMakeFiles/cmTC_e29c4.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'scalbn' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scalbn
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'scalbn' is a builtin with type 'double (double, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scalbn
+                              ^
+1 warning generated.
+Linking C executable cmTC_e29c4
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e29c4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=scalbn -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e29c4.dir/CheckFunctionExists.c.o  -o cmTC_e29c4 -lm 
+
+
+Determining if the function sin exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ba61/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1ba61.dir/build.make CMakeFiles/cmTC_1ba61.dir/build
+Building C object CMakeFiles/cmTC_1ba61.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sin   -o CMakeFiles/cmTC_1ba61.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sin' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sin
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'sin' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sin
+                              ^
+1 warning generated.
+Linking C executable cmTC_1ba61
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ba61.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sin -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1ba61.dir/CheckFunctionExists.c.o  -o cmTC_1ba61 -lm 
+
+
+Determining if the function sinf exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a4be/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0a4be.dir/build.make CMakeFiles/cmTC_0a4be.dir/build
+Building C object CMakeFiles/cmTC_0a4be.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sinf   -o CMakeFiles/cmTC_0a4be.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sinf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sinf
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'sinf' is a builtin with type 'float (float)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sinf
+                              ^
+1 warning generated.
+Linking C executable cmTC_0a4be
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a4be.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sinf -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0a4be.dir/CheckFunctionExists.c.o  -o cmTC_0a4be -lm 
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d50d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2d50d.dir/build.make CMakeFiles/cmTC_2d50d.dir/build
+Building C object CMakeFiles/cmTC_2d50d.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sqrt   -o CMakeFiles/cmTC_2d50d.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrt' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'sqrt' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+1 warning generated.
+Linking C executable cmTC_2d50d
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d50d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sqrt -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2d50d.dir/CheckFunctionExists.c.o  -o cmTC_2d50d -lm 
+
+
+Determining if the function sqrtf exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3d4d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f3d4d.dir/build.make CMakeFiles/cmTC_f3d4d.dir/build
+Building C object CMakeFiles/cmTC_f3d4d.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sqrtf   -o CMakeFiles/cmTC_f3d4d.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrtf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrtf
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'sqrtf' is a builtin with type 'float (float)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrtf
+                              ^
+1 warning generated.
+Linking C executable cmTC_f3d4d
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3d4d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=sqrtf -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f3d4d.dir/CheckFunctionExists.c.o  -o cmTC_f3d4d -lm 
+
+
+Determining if the function tan exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4a69/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a4a69.dir/build.make CMakeFiles/cmTC_a4a69.dir/build
+Building C object CMakeFiles/cmTC_a4a69.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=tan   -o CMakeFiles/cmTC_a4a69.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'tan' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tan
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'tan' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tan
+                              ^
+1 warning generated.
+Linking C executable cmTC_a4a69
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4a69.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=tan -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a4a69.dir/CheckFunctionExists.c.o  -o cmTC_a4a69 -lm 
+
+
+Determining if the function tanf exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b898b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b898b.dir/build.make CMakeFiles/cmTC_b898b.dir/build
+Building C object CMakeFiles/cmTC_b898b.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=tanf   -o CMakeFiles/cmTC_b898b.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'tanf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tanf
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'tanf' is a builtin with type 'float (float)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tanf
+                              ^
+1 warning generated.
+Linking C executable cmTC_b898b
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b898b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=tanf -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b898b.dir/CheckFunctionExists.c.o  -o cmTC_b898b -lm 
+
+
+Determining if the function acos exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd45b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fd45b.dir/build.make CMakeFiles/cmTC_fd45b.dir/build
+Building C object CMakeFiles/cmTC_fd45b.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=acos   -o CMakeFiles/cmTC_fd45b.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'acos' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS acos
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'acos' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS acos
+                              ^
+1 warning generated.
+Linking C executable cmTC_fd45b
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd45b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=acos -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fd45b.dir/CheckFunctionExists.c.o  -o cmTC_fd45b -lm 
+
+
+Determining if the function asin exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ffc1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1ffc1.dir/build.make CMakeFiles/cmTC_1ffc1.dir/build
+Building C object CMakeFiles/cmTC_1ffc1.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=asin   -o CMakeFiles/cmTC_1ffc1.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'asin' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS asin
+                              ^
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'asin' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS asin
+                              ^
+1 warning generated.
+Linking C executable cmTC_1ffc1
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ffc1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=asin -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1ffc1.dir/CheckFunctionExists.c.o  -o cmTC_1ffc1 -lm 
+
+
+Determining if the function iconv_open exists in the iconv passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20600/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_20600.dir/build.make CMakeFiles/cmTC_20600.dir/build
+Building C object CMakeFiles/cmTC_20600.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=iconv_open   -o CMakeFiles/cmTC_20600.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_20600
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20600.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=iconv_open -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_20600.dir/CheckFunctionExists.c.o  -o cmTC_20600 -liconv 
+
+
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeeded with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06c4b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_06c4b.dir/build.make CMakeFiles/cmTC_06c4b.dir/build
+Building C object CMakeFiles/cmTC_06c4b.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_SA_SIGACTION   -o CMakeFiles/cmTC_06c4b.dir/src.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_06c4b
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06c4b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_SA_SIGACTION -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_06c4b.dir/src.c.o  -o cmTC_06c4b 
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+   (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+   return 0;
+}
+
+Determining if the function dlopen exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8dbd1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8dbd1.dir/build.make CMakeFiles/cmTC_8dbd1.dir/build
+Building C object CMakeFiles/cmTC_8dbd1.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_8dbd1.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8dbd1
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dbd1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=dlopen -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8dbd1.dir/CheckFunctionExists.c.o  -o cmTC_8dbd1 
+
+
+Performing C SOURCE FILE Test HAVE_PTHREADS succeeded with the following compile output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3cc2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c3cc2.dir/build.make CMakeFiles/cmTC_c3cc2.dir/build
+Building C object CMakeFiles/cmTC_c3cc2.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_PTHREADS  -D_THREAD_SAFE   -o CMakeFiles/cmTC_c3cc2.dir/src.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c3cc2
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3cc2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_PTHREADS  -D_THREAD_SAFE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c3cc2.dir/src.c.o  -o cmTC_c3cc2 
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char** argv) {
+          pthread_attr_t type;
+          pthread_attr_init(&type);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_RECURSIVE_MUTEXES succeeded with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52742/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_52742.dir/build.make CMakeFiles/cmTC_52742.dir/build
+Building C object CMakeFiles/cmTC_52742.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_RECURSIVE_MUTEXES  -D_THREAD_SAFE   -o CMakeFiles/cmTC_52742.dir/src.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_52742
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52742.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_RECURSIVE_MUTEXES  -D_THREAD_SAFE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_52742.dir/src.c.o  -o cmTC_52742 
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char **argv) {
+          pthread_mutexattr_t attr;
+          pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREADS_SEM succeeded with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6b96c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6b96c.dir/build.make CMakeFiles/cmTC_6b96c.dir/build
+Building C object CMakeFiles/cmTC_6b96c.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_PTHREADS_SEM  -D_THREAD_SAFE   -o CMakeFiles/cmTC_6b96c.dir/src.c.o   -c /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6b96c
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b96c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DHAVE_PTHREADS_SEM  -D_THREAD_SAFE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6b96c.dir/src.c.o  -o cmTC_6b96c 
+
+Source file was:
+#include <pthread.h>
+                                 #include <semaphore.h>
+                                 int main(int argc, char **argv) { return 0; }
+Determining if the function pthread_setname_np exists passed with the following output:
+Change Dir: /tmp/hjo/dependencies/SDL2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd4a4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bd4a4.dir/build.make CMakeFiles/cmTC_bd4a4.dir/build
+Building C object CMakeFiles/cmTC_bd4a4.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=pthread_setname_np  -D_THREAD_SAFE   -o CMakeFiles/cmTC_bd4a4.dir/CheckFunctionExists.c.o   -c /nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bd4a4
+/nfs/2018/h/hjo/.brew/Cellar/cmake/3.12.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd4a4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -g -O3 -idirafter /tmp/hjo/dependencies/SDL2/src/video/khronos -DCHECK_FUNCTION_EXISTS=pthread_setname_np  -D_THREAD_SAFE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bd4a4.dir/CheckFunctionExists.c.o  -o cmTC_bd4a4 
+
+
